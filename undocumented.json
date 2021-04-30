@@ -1,0 +1,3435 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/BTree/BTreeCursor.swift",
+      "line": 12,
+      "symbol": "BTree.Cursor",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/BTree/BTreeCursor.swift",
+      "line": 307,
+      "symbol": "BTreeCursor.Element",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/BTree/BTreeCursor.swift",
+      "line": 308,
+      "symbol": "BTreeCursor.Tree",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/Map.swift",
+      "line": 10,
+      "symbol": "Map",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/Map.swift",
+      "line": 15,
+      "symbol": "Map.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Collections/Map.swift",
+      "line": 29,
+      "symbol": "Map.subscript(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CanvasProperties.swift",
+      "line": 10,
+      "symbol": "CanvasProperties",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CanvasProperties.swift",
+      "line": 11,
+      "symbol": "CanvasProperties.aspect",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CanvasProperties.swift",
+      "line": 13,
+      "symbol": "CanvasProperties.init(aspect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CanvasProperties.swift",
+      "line": 18,
+      "symbol": "CanvasProperties",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CanvasProperties.swift",
+      "line": 19,
+      "symbol": "CanvasProperties.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 8,
+      "symbol": "CompositionState",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 9,
+      "symbol": "CompositionState.canvas",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 10,
+      "symbol": "CompositionState.mainNodes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 11,
+      "symbol": "CompositionState.additionalNodes",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 13,
+      "symbol": "CompositionState.init(canvas:mainNodes:additionalNodes:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 51,
+      "symbol": "CompositionState",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 79,
+      "symbol": "CompositionState",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 80,
+      "symbol": "CompositionState.Change",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/CompositionState.swift",
+      "line": 92,
+      "symbol": "CompositionState.diff(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 10,
+      "symbol": "Project",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 11,
+      "symbol": "Project.maxStepsCount",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 13,
+      "symbol": "Project.steps",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 14,
+      "symbol": "Project.stepCursor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 16,
+      "symbol": "Project.init(state:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 22,
+      "symbol": "Project",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 23,
+      "symbol": "Project.Step",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 25,
+      "symbol": "Project.stepsCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 26,
+      "symbol": "Project.stepsRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 28,
+      "symbol": "Project.step(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 30,
+      "symbol": "Project.removeSteps(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/Project.swift",
+      "line": 34,
+      "symbol": "Project.append(step:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 10,
+      "symbol": "StepsNavigatableByCursor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 11,
+      "symbol": "StepsNavigatableByCursor.Step",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 13,
+      "symbol": "StepsNavigatableByCursor.maxStepsCount",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 15,
+      "symbol": "StepsNavigatableByCursor.stepCursor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 16,
+      "symbol": "StepsNavigatableByCursor.stepsCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 17,
+      "symbol": "StepsNavigatableByCursor.stepsRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 19,
+      "symbol": "StepsNavigatableByCursor.step(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 21,
+      "symbol": "StepsNavigatableByCursor.removeSteps(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 22,
+      "symbol": "StepsNavigatableByCursor.append(step:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 25,
+      "symbol": "StepsNavigatableByCursor",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 26,
+      "symbol": "StepsNavigatableByCursor.currentState",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 29,
+      "symbol": "StepsNavigatableByCursor.canUndo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 31,
+      "symbol": "StepsNavigatableByCursor.undo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 38,
+      "symbol": "StepsNavigatableByCursor.canRedo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 40,
+      "symbol": "StepsNavigatableByCursor.redo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 47,
+      "symbol": "StepsNavigatableByCursor.commit(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Composition/StepsNavigatableByCursor.swift",
+      "line": 57,
+      "symbol": "StepsNavigatableByCursor.compactIfNeeded()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/AudioContent.swift",
+      "line": 14,
+      "symbol": "AudioContent.Source.music",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/AudioContent.swift",
+      "line": 15,
+      "symbol": "AudioContent.Source.video",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/AudioContent.swift",
+      "line": 16,
+      "symbol": "AudioContent.Source.record",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/AudioContent.swift",
+      "line": 17,
+      "symbol": "AudioContent.Source.other",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/AudioContent.swift",
+      "line": 65,
+      "symbol": "AudioContentNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 18,
+      "symbol": "EffectContent.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 21,
+      "symbol": "EffectContent.init(filter:duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 26,
+      "symbol": "EffectContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 34,
+      "symbol": "EffectContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 35,
+      "symbol": "EffectContentNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/EffectContent.swift",
+      "line": 40,
+      "symbol": "AdditionalNode.filter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/GIFContent.swift",
+      "line": 14,
+      "symbol": "GIFContent.resource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/GIFContent.swift",
+      "line": 15,
+      "symbol": "GIFContent.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/GIFContent.swift",
+      "line": 16,
+      "symbol": "GIFContent.speed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/GIFContent.swift",
+      "line": 19,
+      "symbol": "GIFContent.init(resource:duration:speed:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/GIFContent.swift",
+      "line": 27,
+      "symbol": "GIFContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/ImageContent.swift",
+      "line": 17,
+      "symbol": "ImageContent.resource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/ImageContent.swift",
+      "line": 34,
+      "symbol": "ImageContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/ImageContent.swift",
+      "line": 74,
+      "symbol": "ImageContentNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 16,
+      "symbol": "AssetBasedNodeContent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 27,
+      "symbol": "AssetBasedNodeContent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 40,
+      "symbol": "AnyAssetBasedNodeContent.contentRange",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 49,
+      "symbol": "AssetBasedNodeContent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 53,
+      "symbol": "AnyAssetBasedNodeContent.hasAudio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 60,
+      "symbol": "AnyAssetBasedNodeContent.contentDuration(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 67,
+      "symbol": "AnyAssetBasedNodeContent.minDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 71,
+      "symbol": "AnyAssetBasedNodeContent.startInset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 88,
+      "symbol": "AnyAssetBasedNodeContent.endInset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 106,
+      "symbol": "AssetBasedNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 107,
+      "symbol": "AssetBasedNode.assetContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 111,
+      "symbol": "Node.assetContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 119,
+      "symbol": "AdditionalNode.assetContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AssetBasedNodeContent.swift",
+      "line": 126,
+      "symbol": "AssetBasedNodeContent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 10,
+      "symbol": "AudialContent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 11,
+      "symbol": "AudialContent.hasAudio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 14,
+      "symbol": "AudialContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 15,
+      "symbol": "AudialContentNode.audialContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 16,
+      "symbol": "AudialContentNode.hasAudio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 20,
+      "symbol": "Node.hasAudio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 24,
+      "symbol": "Node.audialContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 28,
+      "symbol": "AdditionalNode.hasAudio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudialContent.swift",
+      "line": 32,
+      "symbol": "AdditionalNode.audialContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/AudioOnlyContent.swift",
+      "line": 3,
+      "symbol": "AudioOnlyContent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/NodeContent.swift",
+      "line": 28,
+      "symbol": "StronglyTypedNodeContent",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 11,
+      "symbol": "RenderVisualContentContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 18,
+      "symbol": "VisualContent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 19,
+      "symbol": "VisualContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 22,
+      "symbol": "VisualContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 23,
+      "symbol": "VisualContentNode.visualContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 27,
+      "symbol": "Node.visualContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 31,
+      "symbol": "AdditionalNode.visualContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualContent.swift",
+      "line": 40,
+      "symbol": "VisualContentNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 10,
+      "symbol": "VisualProcessorContentContext",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 16,
+      "symbol": "VisualProcessorContent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 17,
+      "symbol": "VisualProcessorContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 20,
+      "symbol": "VisualProcessorContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 21,
+      "symbol": "VisualProcessorContentNode.processorContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Protocols/VisualProcessorContent.swift",
+      "line": 25,
+      "symbol": "AdditionalNode.processorContent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Rendering/RenderContentInstruction.swift",
+      "line": 11,
+      "symbol": "RenderContentInstruction",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/Rendering/RenderContentInstruction.swift",
+      "line": 12,
+      "symbol": "RenderContentInstruction.image(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 13,
+      "symbol": "TextContent",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 15,
+      "symbol": "TextContent.text",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 16,
+      "symbol": "TextContent.textBackgroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 17,
+      "symbol": "TextContent.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 20,
+      "symbol": "TextContent.init(text:duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 26,
+      "symbol": "TextContent.renderInstruction(context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 31,
+      "symbol": "TextContent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 43,
+      "symbol": "TextContent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 44,
+      "symbol": "TextContent.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 47,
+      "symbol": "TextContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/TextContent.swift",
+      "line": 48,
+      "symbol": "TextContentNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/VideoContent.swift",
+      "line": 42,
+      "symbol": "VideoContentNode",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/VideoContent.swift",
+      "line": 43,
+      "symbol": "VideoContentNode.content",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Content/VideoContent.swift",
+      "line": 50,
+      "symbol": "VideoContent.audioOnly()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 72,
+      "symbol": "_Identifiable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 73,
+      "symbol": "_Identifiable.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 76,
+      "symbol": "Diffable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 78,
+      "symbol": "AnyDiffAware",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 79,
+      "symbol": "AnyDiffAware.diffId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 80,
+      "symbol": "AnyDiffAware.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 82,
+      "symbol": "AnyDiffAware.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Diffing/Diffable.swift",
+      "line": 85,
+      "symbol": "AnyDiffAware.compareContent(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 10,
+      "symbol": "AspectRatio",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 11,
+      "symbol": "AspectRatio.ratio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 13,
+      "symbol": "AspectRatio.init(ratio:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 28,
+      "symbol": "AspectRatio",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 35,
+      "symbol": "AspectRatio",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 36,
+      "symbol": "AspectRatio.init(size:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 40,
+      "symbol": "AspectRatio.size(withWidth:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/AspectRatio.swift",
+      "line": 45,
+      "symbol": "AspectRatio.size(withHeight:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 17,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 18,
+      "symbol": "Asset.resource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 19,
+      "symbol": "Asset.avAsset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 21,
+      "symbol": "Asset.isReversed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 27,
+      "symbol": "Asset.init(resource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 69,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 70,
+      "symbol": "Asset.contains(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 75,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 76,
+      "symbol": "Asset.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 79,
+      "symbol": "Asset",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Asset.swift",
+      "line": 80,
+      "symbol": "Asset.blankVideo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 12,
+      "symbol": "BlendingMode.add",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 13,
+      "symbol": "BlendingMode.color",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 14,
+      "symbol": "BlendingMode.colorBurn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 15,
+      "symbol": "BlendingMode.colorDodge",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 16,
+      "symbol": "BlendingMode.darken",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 17,
+      "symbol": "BlendingMode.difference",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 18,
+      "symbol": "BlendingMode.divide",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 19,
+      "symbol": "BlendingMode.exclusion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 20,
+      "symbol": "BlendingMode.hardLight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 21,
+      "symbol": "BlendingMode.hue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 22,
+      "symbol": "BlendingMode.lighten",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 23,
+      "symbol": "BlendingMode.linearBurn",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 24,
+      "symbol": "BlendingMode.luminocity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 25,
+      "symbol": "BlendingMode.multiply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 26,
+      "symbol": "BlendingMode.overlay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 27,
+      "symbol": "BlendingMode.pinlight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 28,
+      "symbol": "BlendingMode.saturation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 29,
+      "symbol": "BlendingMode.screen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 30,
+      "symbol": "BlendingMode.softLight",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/BlendingMode.swift",
+      "line": 31,
+      "symbol": "BlendingMode.normal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 15,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 16,
+      "symbol": "Color.r",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 17,
+      "symbol": "Color.g",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 18,
+      "symbol": "Color.b",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 19,
+      "symbol": "Color.a",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 22,
+      "symbol": "Color.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 31,
+      "symbol": "Color.uiColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 61,
+      "symbol": "Color.cgColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 65,
+      "symbol": "Color.ciColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 69,
+      "symbol": "Color.mti",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 77,
+      "symbol": "UIColor.color",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 90,
+      "symbol": "Color",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Color.swift",
+      "line": 92,
+      "symbol": "Color.clear",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/ContentFrameInfo.swift",
+      "line": 10,
+      "symbol": "ContentFrameInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/ContentFrameInfo.swift",
+      "line": 12,
+      "symbol": "ContentFrameInfo.frame",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/ContentFrameInfo.swift",
+      "line": 13,
+      "symbol": "ContentFrameInfo.rotation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/ContentFrameInfo.swift",
+      "line": 15,
+      "symbol": "ContentFrameInfo.init(frame:rotation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 11,
+      "symbol": "AnyFilter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 13,
+      "symbol": "AnyFilter.codingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 14,
+      "symbol": "AnyFilter.filter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 37,
+      "symbol": "AnyFilter.init(filter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 44,
+      "symbol": "Filter",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 45,
+      "symbol": "Filter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 48,
+      "symbol": "ImageFilterProcessor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 49,
+      "symbol": "ImageFilterProcessor.process(image:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 52,
+      "symbol": "ImageFilteringRequest",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 53,
+      "symbol": "ImageFilteringRequest.renderSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 54,
+      "symbol": "ImageFilteringRequest.globalTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Filter.swift",
+      "line": 55,
+      "symbol": "ImageFilteringRequest.mtiContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 11,
+      "symbol": "LayerBackground",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 12,
+      "symbol": "LayerBackground.backgroundImage(for:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 15,
+      "symbol": "LayerBackground",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 16,
+      "symbol": "LayerBackground.solid(color:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 17,
+      "symbol": "LayerBackground.blur(relativeRadius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 20,
+      "symbol": "AnyLayerBackground",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 22,
+      "symbol": "AnyLayerBackground.codingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 23,
+      "symbol": "AnyLayerBackground.background",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/LayerBackground.swift",
+      "line": 46,
+      "symbol": "AnyLayerBackground.init(background:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 12,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 15,
+      "symbol": "MediaTime.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 19,
+      "symbol": "MediaTime.init(value:timescale:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 33,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 34,
+      "symbol": "MediaTime.cm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 37,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 38,
+      "symbol": "MediaTime.zero",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 41,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 47,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 49,
+      "symbol": "MediaTime.+(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 53,
+      "symbol": "MediaTime.-(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 57,
+      "symbol": "MediaTime.*(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 62,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 83,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 85,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 96,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 98,
+      "symbol": "MediaTime.seconds",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 100,
+      "symbol": "MediaTime.seconds(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 104,
+      "symbol": "MediaTime.positiveInfinity",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 107,
+      "symbol": "MediaTime",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/MediaTime.swift",
+      "line": 108,
+      "symbol": "MediaTime.notDetermined",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 10,
+      "symbol": "Resource",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 11,
+      "symbol": "Resource.identifier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 13,
+      "symbol": "Resource.init(identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 18,
+      "symbol": "Resource",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 19,
+      "symbol": "Resource.init(_:identifier:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 24,
+      "symbol": "Resource",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Resource.swift",
+      "line": 25,
+      "symbol": "Resource.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 11,
+      "symbol": "Font",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 22,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 24,
+      "symbol": "Text.string",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 25,
+      "symbol": "Text.fontName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 26,
+      "symbol": "Text.fontSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 27,
+      "symbol": "Text.alignment",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 28,
+      "symbol": "Text.foregroundColor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 30,
+      "symbol": "Text.attributedString(sizeScale:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 41,
+      "symbol": "Text.font(sizeScale:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 52,
+      "symbol": "Text.fontSizeRange",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 55,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 61,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 67,
+      "symbol": "Text",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 69,
+      "symbol": "Text.Alignment",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 71,
+      "symbol": "Text.Alignment.left",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 72,
+      "symbol": "Text.Alignment.center",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 73,
+      "symbol": "Text.Alignment.justified",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 74,
+      "symbol": "Text.Alignment.right",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 76,
+      "symbol": "Text.Alignment.Info",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 77,
+      "symbol": "Text.Alignment.Info.ca",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 78,
+      "symbol": "Text.Alignment.Info.ns",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 79,
+      "symbol": "Text.Alignment.Info.ct",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Text.swift",
+      "line": 82,
+      "symbol": "Text.Alignment.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 11,
+      "symbol": "Transition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 12,
+      "symbol": "Transition.preferredDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 13,
+      "symbol": "Transition.processor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 15,
+      "symbol": "Transition.init(preferredDuration:processor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 21,
+      "symbol": "Transition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 22,
+      "symbol": "Transition.default",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 25,
+      "symbol": "Transition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 50,
+      "symbol": "TransitionProcessor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 51,
+      "symbol": "TransitionProcessor.create()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 54,
+      "symbol": "TransitionProcessorCore",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/Transition.swift",
+      "line": 55,
+      "symbol": "TransitionProcessorCore.process(from:to:progress:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/VolumeFadeSettings.swift",
+      "line": 10,
+      "symbol": "VolumeFadeSettings",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/VolumeFadeSettings.swift",
+      "line": 11,
+      "symbol": "VolumeFadeSettings.preferredFadeInDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/VolumeFadeSettings.swift",
+      "line": 12,
+      "symbol": "VolumeFadeSettings.preferredFadeOutDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/VolumeFadeSettings.swift",
+      "line": 14,
+      "symbol": "VolumeFadeSettings.init(preferredFadeInDuration:preferredFadeOutDuration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Entities/VolumeFadeSettings.swift",
+      "line": 34,
+      "symbol": "VolumeFadeSettings",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/Quartz+Vectors.swift",
+      "line": 14,
+      "symbol": "Vec2Representable.x",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/Quartz+Vectors.swift",
+      "line": 15,
+      "symbol": "Vec2Representable.y",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/Quartz+Vectors.swift",
+      "line": 17,
+      "symbol": "Vec2Representable.init(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 12,
+      "symbol": "CGAffineTransform.scaleX",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 13,
+      "symbol": "CGAffineTransform.scaleY",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 14,
+      "symbol": "CGAffineTransform.rotation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 32,
+      "symbol": "CGAffineTransform.toUV(relativeTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 37,
+      "symbol": "CGAffineTransform.toLocal(forFrame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 42,
+      "symbol": "CGAffineTransform.toCILocal(forFrame:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 52,
+      "symbol": "CGAffineTransform.settingOrigin(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 59,
+      "symbol": "CGAffineTransform.settingScale(x:y:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 63,
+      "symbol": "CGAffineTransform.settingRotation(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 70,
+      "symbol": "CGPoint.toUV(relativeTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Extensions/QuartzExtensions.swift",
+      "line": 76,
+      "symbol": "CGPoint.toLocal(relativeTo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Generated/Registrable.swift",
+      "line": 10,
+      "symbol": "Registrable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Generated/Registrable.swift",
+      "line": 11,
+      "symbol": "Registrable.register()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 10,
+      "symbol": "AnyComparable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 11,
+      "symbol": "AnyComparable.compare(lhs:rhs:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 14,
+      "symbol": "AnyComparable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 15,
+      "symbol": "AnyComparable.isLess(than:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 20,
+      "symbol": "AnyComparable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyComparable.swift",
+      "line": 22,
+      "symbol": "AnyComparable.compare(lhs:rhs:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 10,
+      "symbol": "AutoAnyEquatable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 12,
+      "symbol": "AnyEquatable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 13,
+      "symbol": "AnyEquatable.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 16,
+      "symbol": "AutoAnyEquatable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 17,
+      "symbol": "AutoAnyEquatable.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 24,
+      "symbol": "Optional.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 38,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/AnyEquatable.swift",
+      "line": 49,
+      "symbol": "!=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/Refreshable.swift",
+      "line": 11,
+      "symbol": "Refreshable",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/Refreshable.swift",
+      "line": 15,
+      "symbol": "Refreshable.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/Refreshable.swift",
+      "line": 28,
+      "symbol": "Refreshable.callAsFunction()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Helpers/Refreshable.swift",
+      "line": 33,
+      "symbol": "Refreshable.projectedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 16,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 24,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 24,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 24,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 26,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 27,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 28,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 30,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 34,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 36,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 37,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 37,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 38,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 40,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 41,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 44,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 46,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 47,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 47,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 48,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 52,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 58,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 60,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 63,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 66,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 67,
+      "symbol": "AdditionalNode.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 69,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 69,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 71,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 71,
+      "symbol": "AdditionalNode.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 73,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 77,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 78,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 100,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 103,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/AdditionalNode.swift",
+      "line": 118,
+      "symbol": "AdditionalNode",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/DurationFeature.swift",
+      "line": 12,
+      "symbol": "DurationProvider.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/DurationFeature.swift",
+      "line": 17,
+      "symbol": "MutableDurationProvider.duration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/LayerBackgrounds/LayerBackgroundFeature.swift",
+      "line": 11,
+      "symbol": "NodeParameters.LayerBackgroundKey",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/LayerBackgrounds/LayerBackgroundFeature.swift",
+      "line": 17,
+      "symbol": "NodeWithBackground",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/LayerBackgrounds/LayerBackgroundFeature.swift",
+      "line": 18,
+      "symbol": "NodeWithBackground.layerBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/LayerBackgrounds/LayerBackgroundFeature.swift",
+      "line": 22,
+      "symbol": "Node.layerBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/ReverseFeature.swift",
+      "line": 12,
+      "symbol": "ReverseOperation.cancel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/SplittableNode.swift",
+      "line": 22,
+      "symbol": "SplittableNode.split(at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/TitleProviderFeature.swift",
+      "line": 12,
+      "symbol": "TitleProvider.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Features/TitleProviderFeature.swift",
+      "line": 17,
+      "symbol": "MutableTitleProvider.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Node.swift",
+      "line": 51,
+      "symbol": "BaseNode.Content",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Node.swift",
+      "line": 112,
+      "symbol": "Node.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Node.swift",
+      "line": 116,
+      "symbol": "Node.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Node.swift",
+      "line": 121,
+      "symbol": "Node.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Node.swift",
+      "line": 125,
+      "symbol": "Node.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Parameters.swift",
+      "line": 31,
+      "symbol": "Parameters.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Node/Parameters.swift",
+      "line": 53,
+      "symbol": "ParametersKey.Value",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Effects/RenderEffectInstruction.swift",
+      "line": 11,
+      "symbol": "RenderEffectInstruction",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Effects/RenderEffectInstruction.swift",
+      "line": 13,
+      "symbol": "RenderEffectInstruction.requiresUnderlayLayersToRender",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Effects/RenderEffectInstruction.swift",
+      "line": 14,
+      "symbol": "RenderEffectInstruction.consumesUnderlayLayers",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Effects/RenderEffectInstruction.swift",
+      "line": 18,
+      "symbol": "RenderEffectInstruction.layers(for:underlayLayers:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/BlurFilter.swift",
+      "line": 11,
+      "symbol": "BlurFilter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/BlurFilter.swift",
+      "line": 13,
+      "symbol": "BlurFilter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/BlurFilter.swift",
+      "line": 15,
+      "symbol": "BlurFilter.process(image:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/BlurFilter.swift",
+      "line": 23,
+      "symbol": "BlurFilter.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/CRTFilter.swift",
+      "line": 11,
+      "symbol": "CRTFilter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/CRTFilter.swift",
+      "line": 13,
+      "symbol": "CRTFilter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/CRTFilter.swift",
+      "line": 19,
+      "symbol": "CRTFilter.process(image:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/CRTFilter.swift",
+      "line": 26,
+      "symbol": "CRTFilter.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/OutlineFilter.swift",
+      "line": 11,
+      "symbol": "OutlineFilter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/OutlineFilter.swift",
+      "line": 13,
+      "symbol": "OutlineFilter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/OutlineFilter.swift",
+      "line": 19,
+      "symbol": "OutlineFilter.process(image:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/OutlineFilter.swift",
+      "line": 25,
+      "symbol": "OutlineFilter.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/VHSFilter.swift",
+      "line": 11,
+      "symbol": "VHSFilter",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/VHSFilter.swift",
+      "line": 13,
+      "symbol": "VHSFilter.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/VHSFilter.swift",
+      "line": 19,
+      "symbol": "VHSFilter.process(image:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Filters/VHSFilter.swift",
+      "line": 26,
+      "symbol": "VHSFilter.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossFadeTransitionProcessor.swift",
+      "line": 11,
+      "symbol": "CrossFadeTransitionProcessor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossFadeTransitionProcessor.swift",
+      "line": 13,
+      "symbol": "CrossFadeTransitionProcessor.Filter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossFadeTransitionProcessor.swift",
+      "line": 17,
+      "symbol": "CrossFadeTransitionProcessor.process(from:to:progress:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossFadeTransitionProcessor.swift",
+      "line": 27,
+      "symbol": "CrossFadeTransitionProcessor.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossFadeTransitionProcessor.swift",
+      "line": 31,
+      "symbol": "CrossFadeTransitionProcessor.create()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossZoomTransitionProcessor.swift",
+      "line": 11,
+      "symbol": "CrossZoomTransitionProcessor",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossZoomTransitionProcessor.swift",
+      "line": 13,
+      "symbol": "CrossZoomTransitionProcessor.Filter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossZoomTransitionProcessor.swift",
+      "line": 17,
+      "symbol": "CrossZoomTransitionProcessor.process(from:to:progress:request:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossZoomTransitionProcessor.swift",
+      "line": 27,
+      "symbol": "CrossZoomTransitionProcessor.isEqual(to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Transitions/CrossZoomTransitionProcessor.swift",
+      "line": 31,
+      "symbol": "CrossZoomTransitionProcessor.create()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 17,
+      "symbol": "LayerInstruction",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 19,
+      "symbol": "LayerInstruction.requiresUnderlayLayersToRender",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 20,
+      "symbol": "LayerInstruction.consumesUnderlayLayers",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 22,
+      "symbol": "LayerInstruction.layers(for:underlayLayers:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 25,
+      "symbol": "LayerInstruction",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/Layering/LayerInstruction.swift",
+      "line": 26,
+      "symbol": "LayerInstruction.layers(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 12,
+      "symbol": "VideoCompositionRequest",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 16,
+      "symbol": "VideoCompositionRequest.mtiContext",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 26,
+      "symbol": "VideoCompositionRequest.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 34,
+      "symbol": "VideoCompositionRequest.caches",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 39,
+      "symbol": "VideoCompositionRequest",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 40,
+      "symbol": "VideoCompositionRequest.globalTime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositionRequest.swift",
+      "line": 41,
+      "symbol": "VideoCompositionRequest.renderSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositor.swift",
+      "line": 117,
+      "symbol": "VideoCompositor.renderContextChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Processing/Video/VideoCompositorCaches.swift",
+      "line": 13,
+      "symbol": "VideoCompositor.Caches",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 18,
+      "symbol": "ResourcePreprocessor.preprocess(resourceFromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 22,
+      "symbol": "ResourcePreprocessor.preprocessAsynchronously(resourceFromURL:on:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 43,
+      "symbol": "ImagePreprocessor.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 45,
+      "symbol": "ImagePreprocessor.Configuration",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 50,
+      "symbol": "ImagePreprocessor.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 51,
+      "symbol": "ImagePreprocessor.Error.inputNotAnImage",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 52,
+      "symbol": "ImagePreprocessor.Error.pngCreationFailed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 55,
+      "symbol": "ImagePreprocessor.preprocess(resourceFromURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/ResourcePreparation/ResourcePreprocessor.swift",
+      "line": 85,
+      "symbol": "UIImage.hasAlpha",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodable.swift",
+      "line": 25,
+      "symbol": "AnyCodable.wrappedValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodable.swift",
+      "line": 27,
+      "symbol": "AnyCodable.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 14,
+      "symbol": "AnyCodableType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 15,
+      "symbol": "AnyCodableType.codingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 16,
+      "symbol": "AnyCodableType.wrapInAnyCodable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 17,
+      "symbol": "AnyCodableType.failsafeValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 20,
+      "symbol": "AnyCodableType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 21,
+      "symbol": "AnyCodableType.failsafeValue",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 23,
+      "symbol": "AnyCodableType.wrapInAnyCodable()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 35,
+      "symbol": "AnyCodableType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 37,
+      "symbol": "AnyCodableType.register()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 57,
+      "symbol": "AnyNodeContent.register()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 69,
+      "symbol": "Optional.register()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AnyCodableType.swift",
+      "line": 76,
+      "symbol": "Optional.codingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AutoAnyCodable.swift",
+      "line": 10,
+      "symbol": "AutoAnyCodable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AutoAnyCodable.swift",
+      "line": 12,
+      "symbol": "AutoAnyCodable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/AutoAnyCodable.swift",
+      "line": 13,
+      "symbol": "AutoAnyCodable.codingIdentifier",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/JSONCoders.swift",
+      "line": 11,
+      "symbol": "JSONEncoder.composition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/JSONCoders.swift",
+      "line": 21,
+      "symbol": "JSONDecoder.composition",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/VersionableDecoder.swift",
+      "line": 10,
+      "symbol": "Versionable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/VersionableDecoder.swift",
+      "line": 12,
+      "symbol": "Versionable.minimumVersion",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Serialization/VersionableDecoder.swift",
+      "line": 13,
+      "symbol": "Versionable.version",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 10,
+      "symbol": "NodesComposition",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 13,
+      "symbol": "NodesComposition.aspectRatio",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 19,
+      "symbol": "NodesComposition.avVideoComposition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 25,
+      "symbol": "NodesComposition.avAudioMix",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 38,
+      "symbol": "NodesComposition.getAVComposition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 44,
+      "symbol": "NodesComposition",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 46,
+      "symbol": "NodesComposition.insertMain(_:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 50,
+      "symbol": "NodesComposition.removeMain(from:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 54,
+      "symbol": "NodesComposition.insertAdditional(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 58,
+      "symbol": "NodesComposition.removeAdditional(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 62,
+      "symbol": "NodesComposition.reloadComposition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 66,
+      "symbol": "NodesComposition.reloadVideoComposition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/NodeComposition/NodesComposition.swift",
+      "line": 74,
+      "symbol": "NodesComposition.timeRange(of:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReference.swift",
+      "line": 10,
+      "symbol": "NodeReference",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReference.swift",
+      "line": 12,
+      "symbol": "NodeReference",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 10,
+      "symbol": "NodeReferenceMutator",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 14,
+      "symbol": "NodeReference.Mutator",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 17,
+      "symbol": "NodeReference.Mutator.commitUpdate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 21,
+      "symbol": "NodeReference.Mutator.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 30,
+      "symbol": "NodeReference.Mutator.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Nodes Storage/NodeReferenceMutator.swift",
+      "line": 34,
+      "symbol": "NodeReference.Mutator.subscript(dynamicMember:)",
+      "symbol_kind": "source.lang.swift.decl.function.subscript",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AssetTrackInjectable.swift",
+      "line": 10,
+      "symbol": "AssetTrackInjectable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AssetTrackInjectable.swift",
+      "line": 11,
+      "symbol": "AssetTrackInjectable.injectTime(withStart:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 11,
+      "symbol": "AudioTrackInjectable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 12,
+      "symbol": "AudioTrackInjectable.audioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 15,
+      "symbol": "AudioTrackInjectable.insertAudioContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 18,
+      "symbol": "AudioTrackInjectable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 19,
+      "symbol": "AudioTrackInjectable.hasAudioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 22,
+      "symbol": "AudioTrackInjectableAtKnownTime",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 24,
+      "symbol": "AudioTrackInjectableAtKnownTime.insertAudioContent(into:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 29,
+      "symbol": "AssetBasedNodeContent.insertAudioContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 37,
+      "symbol": "AudioContent.audioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 42,
+      "symbol": "VideoContent.audioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 48,
+      "symbol": "Node.audioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 53,
+      "symbol": "Node.insertAudioContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 59,
+      "symbol": "AdditionalNode.audioTrack",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 64,
+      "symbol": "AdditionalNode.insertAudioContent(into:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/AudioTrackInjectable.swift",
+      "line": 71,
+      "symbol": "AdditionalNode.insertAudioContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 11,
+      "symbol": "VideoTrackInjectable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 13,
+      "symbol": "VideoTrackInjectable.insertVisualContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 16,
+      "symbol": "VideoTrackInjectable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 17,
+      "symbol": "VideoTrackInjectable.injectTime(withStart:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 24,
+      "symbol": "VideoContent.insertVisualContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 37,
+      "symbol": "BaseNode.insertVisualContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/Protocols/VideoTrackInjectable.swift",
+      "line": 59,
+      "symbol": "RequiresComposeOverBlank.insertVisualContent(into:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 10,
+      "symbol": "TimelineDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 11,
+      "symbol": "TimelineDelegate.timeline(_:didAddMainNode:at:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 12,
+      "symbol": "TimelineDelegate.timeline(_:didAddAdditionalNode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 13,
+      "symbol": "TimelineDelegate.timeline(_:didMoveMainNode:to:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 15,
+      "symbol": "TimelineDelegate.timeline(_:didRemoveNode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 16,
+      "symbol": "TimelineDelegate.timeline(_:didUpdate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib/Sources/ComposerKit/Timeline/TimelineDelegate.swift",
+      "line": 18,
+      "symbol": "TimelineDelegate.timeline(_:didUpdateState:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/maximkotliar/Documents/Projects/VideoEditor/ComposerKitLib"
+}

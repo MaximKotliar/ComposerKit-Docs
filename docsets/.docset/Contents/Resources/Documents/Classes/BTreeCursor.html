@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BTreeCursor Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BTreeCursor" class="dashAnchor"></a>
+    <a title="BTreeCursor Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (65% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        BTreeCursor Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AssetReversingOperation.html">AssetReversingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssetReversingOperation/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BTreeCursor.html">BTreeCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor.html">ImagePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor.html#/s:11ComposerKit17ImagePreprocessorC13ConfigurationO">– Configuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator.html">ImageThumbnailGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator/Request.html">– Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InMemoryResourceStorage.html">InMemoryResourceStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MetalTransitionFilter.html">MetalTransitionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MetalVisualContentFilter.html">MetalVisualContentFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MutableVideoComposition.html">MutableVideoComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NodesStorage.html">NodesStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NodesStorage/Reference.html">– Reference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Refreshable.html">Refreshable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Stopwatch.html">Stopwatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Timeline.html">Timeline</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BTreeKeySelector.html">BTreeKeySelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BTreeMatchingStrategy.html">BTreeMatchingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BlendingMode.html">BlendingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:11ComposerKit17ContentConstraintO">ContentConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:11ComposerKit14NodeConstraintO">NodeConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Settings.html">Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Settings/CacheSize.html">– CacheSize</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/AVAssetExportSession.html">AVAssetExportSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/AVPlayer.html">AVPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/AVPlayerItem.html">AVPlayerItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGAffineTransform.html">CGAffineTransform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGImage.html">CGImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMPersistentTrackID.html">CMPersistentTrackID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMTime.html">CMTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMTimeRange.html">CMTimeRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ClosedRange.html">ClosedRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Sf">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s7Float64a">Float64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Si">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s5Int32V">Int32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s5Int64V">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONEncoder.html">JSONEncoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MTIImage.html">MTIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MTILayer.html">MTILayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSColor.html">NSColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters.html">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/BlendingModeKey.html">– BlendingModeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/FilterKey.html">– FilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/ColorCorrectionFilterKey.html">– ColorCorrectionFilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/LayerBackgroundKey.html">– LayerBackgroundKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/OpacityKey.html">– OpacityKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/TransformKey.html">– TransformKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/TransitionKey.html">– TransitionKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/VolumeFadeSettingsKey.html">– VolumeFadeSettingsKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/VolumeKey.html">– VolumeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/ZIndexKey.html">– ZIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeReference.html">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeReference/Mutator.html">– Mutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Numeric.html">Numeric</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:SS">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Su">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s6UInt32V">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s6UInt64V">UInt64</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit2neoiySbAA12AnyEquatable_pSg_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1moiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1moiyxx_AA17Vec2Representable_ptAaCRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1poiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1poiyxx_AA17Vec2Representable_ptAaCRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1soiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1soiyxx_AA17Vec2Representable_ptAaCRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1doiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1doiyxx_AA17Vec2Representable_ptAaCRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit2eeoiySbAA12AnyEquatable_pSg_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit10initializeyyF">initialize()</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyAdditionalNode.html">AnyAdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyAssetBasedNodeContent.html">AnyAssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyCodableType.html">AnyCodableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyComparable.html">AnyComparable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyEquatable.html">AnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyMainNode.html">AnyMainNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyNode.html">AnyNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyNodeContent.html">AnyNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnySplittableNode.html">AnySplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetBasedNode.html">AssetBasedNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetBasedNodeContent.html">AssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetTrackInjectable.html">AssetTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudialContent.html">AudialContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudialContentNode.html">AudialContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioContentNode.html">AudioContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit16AudioOnlyContentP">AudioOnlyContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioTrackInjectable.html">AudioTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioTrackInjectableAtKnownTime.html">AudioTrackInjectableAtKnownTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AutoAnyCodable.html">AutoAnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AutoAnyEquatable.html">AutoAnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BaseNode.html">BaseNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BlendableNode.html">BlendableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ContentFrameProviderNode.html">ContentFrameProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit8DiffableP">Diffable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DurationProvider.html">DurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EffectContentNode.html">EffectContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Filter.html">Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FrameProviderContent.html">FrameProviderContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HasColorCorrectionFilter.html">HasColorCorrectionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HasVisualFilter.html">HasVisualFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageContentNode.html">ImageContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageFilterProcessor.html">ImageFilterProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageFilteringRequest.html">ImageFilteringRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LayerBackground.html">LayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LayerInstruction.html">LayerInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableDurationProvider.html">MutableDurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableTitleProvider.html">MutableTitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableVolumeProvidingNode.html">MutableVolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NodeWithBackground.html">NodeWithBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NodesStorageDelegate.html">NodesStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ParametersKey.html">ParametersKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Registrable.html">Registrable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RenderContentInstruction.html">RenderContentInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourcePreprocessor.html">ResourcePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourceStorageProtocol.html">ResourceStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReversableContent.html">ReversableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReversableNode.html">ReversableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SpeedProvider.html">SpeedProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SplittableContent.html">SplittableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SplittableNode.html">SplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StepsNavigatableByCursor.html">StepsNavigatableByCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TextContentNode.html">TextContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TimelineDelegate.html">TimelineDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TitleProvider.html">TitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransformableNode.html">TransformableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProcessor.html">TransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProcessorCore.html">TransitionProcessorCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProvider.html">TransitionProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransparentNode.html">TransparentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Vec2Representable.html">Vec2Representable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Versionable.html">Versionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoContentNode.html">VideoContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoTrackInjectable.html">VideoTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualContent.html">VisualContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualContentNode.html">VisualContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualProcessorContent.html">VisualProcessorContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualProcessorContentNode.html">VisualProcessorContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VolumeFadeSettingsProvider.html">VolumeFadeSettingsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VolumeProvidingNode.html">VolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ZIndexableNode.html">ZIndexableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/_Identifiable.html">_Identifiable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AdditionalNode.html">AdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyCodable.html">AnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyDiffAware.html">AnyDiffAware</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyFilter.html">AnyFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyLayerBackground.html">AnyLayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AspectRatio.html">AspectRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AudioContent.html">AudioContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AudioContent/Source.html">– Source</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTree.html">BTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeIndex.html">BTreeIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeIterator.html">BTreeIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeKeyIterator.html">BTreeKeyIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeValueIterator.html">BTreeValueIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlurBackground.html">BlurBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlurFilter.html">BlurFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CRTFilter.html">CRTFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CanvasProperties.html">CanvasProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompositionState.html">CompositionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompositionState.html#/s:11ComposerKit16CompositionStateV6ChangeV">– Change</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentFrameInfo.html">ContentFrameInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossFadeTransitionProcessor.html">CrossFadeTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossFadeTransitionProcessor.html#/s:11ComposerKit28CrossFadeTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossZoomTransitionProcessor.html">CrossZoomTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossZoomTransitionProcessor.html#/s:11ComposerKit28CrossZoomTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EffectContent.html">EffectContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GIFContent.html">GIFContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageBackground.html">ImageBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageContent.html">ImageContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Map.html">Map</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MediaTime.html">MediaTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Node.html">Node</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NodesComposition.html">NodesComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutlineFilter.html">OutlineFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Parameters.html">Parameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Project.html">Project</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RenderEffectInstruction.html">RenderEffectInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:11ComposerKit26RenderVisualContentContextV">RenderVisualContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseOperation.html">ReverseOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SolidColorBackground.html">SolidColorBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SortedBag.html">SortedBag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SortedSet.html">SortedSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/Alignment.html">– Alignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextContent.html">TextContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Transform.html">Transform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Transition.html">Transition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VHSFilter.html">VHSFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoCompositionRequest.html">VideoCompositionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoContent.html">VideoContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:11ComposerKit29VisualProcessorContentContextV">VisualProcessorContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VolumeFadeSettings.html">VolumeFadeSettings</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit17ContentParametersa">ContentParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/Font">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit4Fonta">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit27MutableDurationProviderNodea">MutableDurationProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit14NodeParametersa">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit13NodeReferencea">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit20NodeReferenceMutatora">NodeReferenceMutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit24StronglyTypedNodeContenta">StronglyTypedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit20TransformableContenta">TransformableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit18TransparentContenta">TransparentContent</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BTreeCursor</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">BTreeCursor</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span> <span class="k">where</span> <span class="kt">Key</span> <span class="p">:</span> <span class="kt">Comparable</span></code></pre>
+
+                </div>
+              </div>
+            <p>A stateful editing interface for efficiently inserting/removing/updating a range of elements in a B-tree.</p>
+
+<p>Creating a cursor over a tree takes exclusive ownership of it; the tree is in a transient invalid state
+while the cursor is active. (In particular, element counts are not finalized until the cursor is deactivated.)</p>
+
+<p>The cursor always focuses on a particular spot on the tree: either a particular element, or the empty spot after 
+the last element. There are methods to move the cursor to the next or previous element, to modify the currently 
+focused element, to insert a new element before the current position, and to remove the currently focused element
+from the tree.</p>
+
+<p>Note that the cursor does not verify that keys you insert/modify uphold tree invariants &ndash; it is your responsibility
+to guarantee keys remain in ascending order while you&rsquo;re working with the cursor.</p>
+
+<p>Creating a cursor takes O(log(<em>n</em>)) steps; once the cursor has been created, the complexity of most manipulations
+is amortized O(1). For example, appending <em>k</em> new elements without a cursor takes O(<em>k</em> * log(<em>n</em>)) steps;
+using a cursor to do the same only takes O(log(<em>n</em>) + <em>k</em>).</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC7Elementa"></a>
+                    <a name="//apple_ref/swift/Alias/Element" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Element</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC4Treea"></a>
+                    <a name="//apple_ref/swift/Alias/Tree" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC4Treea">Tree</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">Tree</span> <span class="o">=</span> <span class="kt"><a href="../Structs/BTree.html">BTree</a></span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC5countSivp"></a>
+                    <a name="//apple_ref/swift/Property/count" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC5countSivp">count</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The number of elements in the tree currently being edited.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">count</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6offsetSivp"></a>
+                    <a name="//apple_ref/swift/Property/offset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6offsetSivp">offset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The offset of the currently focused element in the tree.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(1) for the getter, O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>)) for the setter.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Simple%20properties"></a>
+                <a name="//apple_ref/swift/Section/Simple properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Simple%20properties"></a>
+                  <h3 class="section-name"><p>Simple properties</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC9isAtStartSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isAtStart" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC9isAtStartSbvp">isAtStart</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return true iff the cursor is focused on the initial element.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isAtStart</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC7isAtEndSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isAtEnd" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC7isAtEndSbvp">isAtEnd</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Return true iff the cursor is focused on the spot beyond the last element.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">isAtEnd</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Navigation"></a>
+                <a name="//apple_ref/swift/Section/Navigation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Navigation"></a>
+                  <h3 class="section-name"><p>Navigation</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC11moveForwardyyF"></a>
+                    <a name="//apple_ref/swift/Method/moveForward()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC11moveForwardyyF">moveForward()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position the cursor on the next element in the B-tree.</p>
+<div class="aside aside-requires">
+    <p class="aside-title">Requires</p>
+    <code>!isAtEnd</code>
+
+</div><div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    Amortized O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveForward</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC12moveBackwardyyF"></a>
+                    <a name="//apple_ref/swift/Method/moveBackward()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC12moveBackwardyyF">moveBackward()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position this cursor on the previous element in the B-tree.</p>
+<div class="aside aside-requires">
+    <p class="aside-title">Requires</p>
+    <code>!isAtStart</code>
+
+</div><div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    Amortized O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveBackward</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC11moveToStartyyF"></a>
+                    <a name="//apple_ref/swift/Method/moveToStart()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC11moveToStartyyF">moveToStart()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position this cursor on the start of the B-tree.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC6offsetSivp">offset</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveToStart</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC9moveToEndyyF"></a>
+                    <a name="//apple_ref/swift/Method/moveToEnd()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC9moveToEndyyF">moveToEnd()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Position this cursor on the end of the B-tree, i.e., at the offset after the last element.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code> - <code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC6offsetSivp">offset</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">moveToEnd</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC4move8toOffsetySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/move(toOffset:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC4move8toOffsetySi_tF">move(toOffset:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move this cursor to the specified offset in the B-tree.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<em>distance</em>)), where <em>distance</em> is the absolute difference between the desired and current
+offsets.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">move</span><span class="p">(</span><span class="n">toOffset</span> <span class="nv">offset</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC4move2to8choosingyx_AA0C11KeySelectorOtF"></a>
+                    <a name="//apple_ref/swift/Method/move(to:choosing:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC4move2to8choosingyx_AA0C11KeySelectorOtF">move(to:<wbr>choosing:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Move this cursor to an element with the specified key. 
+If there are no such elements, the cursor is moved to the first element after <code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC3keyxvp">key</a></code> (or at the end of tree).
+If there are multiple such elements, <code>selector</code> specifies which one to find.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">move</span><span class="p">(</span><span class="n">to</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">Key</span><span class="p">,</span> <span class="n">choosing</span> <span class="nv">selector</span><span class="p">:</span> <span class="kt"><a href="../Enums/BTreeKeySelector.html">BTreeKeySelector</a></span> <span class="o">=</span> <span class="o">.</span><span class="n">any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Editing"></a>
+                <a name="//apple_ref/swift/Section/Editing" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Editing"></a>
+                  <h3 class="section-name"><p>Editing</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC7elementx_q_tvp"></a>
+                    <a name="//apple_ref/swift/Property/element" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC7elementx_q_tvp">element</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get or replace the currently focused element.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Changing the key is potentially dangerous; it is the caller&rsquo;s responsibility to ensure that
+keys remain in ascending order. This is not verified at runtime.
+
+</div><div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">element</span><span class="p">:</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC3keyxvp"></a>
+                    <a name="//apple_ref/swift/Property/key" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC3keyxvp">key</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get or set the key of the currently focused element.</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    Changing the key is potentially dangerous; it is the caller&rsquo;s responsibility to ensure that
+keys remain in ascending order. This is not verified at runtime.
+
+</div><div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">Key</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC5valueq_vp"></a>
+                    <a name="//apple_ref/swift/Property/value" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC5valueq_vp">value</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Get or set the value of the currently focused element.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Value</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC8setValueyq_q_F"></a>
+                    <a name="//apple_ref/swift/Method/setValue(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC8setValueyq_q_F">setValue(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Update the value stored at the cursor&rsquo;s current position and return the previous value.
+This method does not change the cursor&rsquo;s position.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">setValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Value</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Value</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC11insertAfteryyx_q_t_tF"></a>
+                    <a name="//apple_ref/swift/Method/insertAfter(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC11insertAfteryyx_q_t_tF">insertAfter(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Insert a new element after the cursor&rsquo;s current position, and position the cursor on the new element.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    amortized O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insertAfter</span><span class="p">(</span><span class="n">_</span> <span class="nv">element</span><span class="p">:</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6insertyyx_q_t_tF"></a>
+                    <a name="//apple_ref/swift/Method/insert(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6insertyyx_q_t_tF">insert(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Insert a new element at the cursor&rsquo;s current offset, and leave the cursor positioned on the original element.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    amortized O(1)
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insert</span><span class="p">(</span><span class="n">_</span> <span class="nv">element</span><span class="p">:</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6insertyyAA0C0Vyxq_GF"></a>
+                    <a name="//apple_ref/swift/Method/insert(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6insertyyAA0C0Vyxq_GF">insert(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Insert the contents of <code>tree</code> before the currently focused element, keeping the cursor&rsquo;s position on it.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code>count + tree.count</code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">insert</span><span class="p">(</span><span class="n">_</span> <span class="nv">tree</span><span class="p">:</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC4Treea">Tree</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6insertyyqd__STRd__x_q_t7ElementRtd__lF"></a>
+                    <a name="//apple_ref/swift/Method/insert(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6insertyyqd__STRd__x_q_t7ElementRtd__lF">insert(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Insert all elements in a sequence before the currently focused element, keeping the cursor&rsquo;s position on it.</p>
+<div class="aside aside-requires">
+    <p class="aside-title">Requires</p>
+    <code>self.isValid</code> and <code>elements</code> is sorted by key.
+
+</div><div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>) + <em>c</em>), where <em>c</em> is the number of elements in the sequence.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="n">insert</span><span class="o">&lt;</span><span class="kt">S</span><span class="o">&gt;</span><span class="p">(</span><span class="n">_</span> <span class="nv">elements</span><span class="p">:</span> <span class="kt">S</span><span class="p">)</span> <span class="k">where</span> <span class="kt">S</span> <span class="p">:</span> <span class="kt">Sequence</span><span class="p">,</span> <span class="kt">S</span><span class="o">.</span><span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span> <span class="o">==</span> <span class="kt">BTreeCursor</span><span class="o">&lt;</span><span class="kt">Key</span><span class="p">,</span> <span class="kt">Value</span><span class="o">&gt;.</span><span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6removex_q_tyF"></a>
+                    <a name="//apple_ref/swift/Method/remove()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6removex_q_tyF">remove()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove and return the element at the cursor&rsquo;s current position, and position the cursor on its successor.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC7Elementa">Element</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC6removeyySiF"></a>
+                    <a name="//apple_ref/swift/Method/remove(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC6removeyySiF">remove(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove <code>n</code> elements starting at the cursor&rsquo;s current position, and position the cursor on the successor of
+the last element that was removed.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">remove</span><span class="p">(</span><span class="n">_</span> <span class="nv">n</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC9removeAllyyF"></a>
+                    <a name="//apple_ref/swift/Method/removeAll()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC9removeAllyyF">removeAll()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove all elements.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>)) if nodes of this tree are shared with other trees; O(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>) otherwise.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAll</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC15removeAllBefore16includingCurrentySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeAllBefore(includingCurrent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC15removeAllBefore16includingCurrentySb_tF">removeAllBefore(includingCurrent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove all elements before (and if <code>inclusive</code> is true, including) the current position, and
+position the cursor at the start of the remaining tree.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>)) if nodes of this tree are shared with other trees; O(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>) otherwise.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAllBefore</span><span class="p">(</span><span class="n">includingCurrent</span> <span class="nv">inclusive</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC14removeAllAfter16includingCurrentySb_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeAllAfter(includingCurrent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC14removeAllAfter16includingCurrentySb_tF">removeAllAfter(includingCurrent:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove all elements before (and if <code>inclusive</code> is true, including) the current position, and
+position the cursor on the end of the remaining tree.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>)) if nodes of this tree are shared with other trees; O(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>) otherwise.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeAllAfter</span><span class="p">(</span><span class="n">includingCurrent</span> <span class="nv">inclusive</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11BTreeCursorC7extractyAA0C0Vyxq_GSiF"></a>
+                    <a name="//apple_ref/swift/Method/extract(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11BTreeCursorC7extractyAA0C0Vyxq_GSiF">extract(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Extract <code>n</code> elements starting at the cursor&rsquo;s current position, and position the cursor on the successor of
+the last element that was removed.</p>
+<div class="aside aside-complexity">
+    <p class="aside-title">Complexity</p>
+    O(log(<code><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC5countSivp">count</a></code>))
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">extract</span><span class="p">(</span><span class="n">_</span> <span class="nv">n</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/BTreeCursor.html#/s:11ComposerKit11BTreeCursorC4Treea">Tree</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The extracted elements as a new B-tree.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-04-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

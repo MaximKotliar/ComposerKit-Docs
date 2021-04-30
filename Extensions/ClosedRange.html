@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ClosedRange Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/ClosedRange" class="dashAnchor"></a>
+    <a title="ClosedRange Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (65% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ClosedRange Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AssetReversingOperation.html">AssetReversingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AssetReversingOperation/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BTreeCursor.html">BTreeCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor.html">ImagePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor.html#/s:11ComposerKit17ImagePreprocessorC13ConfigurationO">– Configuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImagePreprocessor/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator.html">ImageThumbnailGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator/Request.html">– Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageThumbnailGenerator/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InMemoryResourceStorage.html">InMemoryResourceStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MetalTransitionFilter.html">MetalTransitionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MetalVisualContentFilter.html">MetalVisualContentFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MutableVideoComposition.html">MutableVideoComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NodesStorage.html">NodesStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NodesStorage/Reference.html">– Reference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Refreshable.html">Refreshable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Stopwatch.html">Stopwatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Timeline.html">Timeline</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BTreeKeySelector.html">BTreeKeySelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BTreeMatchingStrategy.html">BTreeMatchingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BlendingMode.html">BlendingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:11ComposerKit17ContentConstraintO">ContentConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:11ComposerKit14NodeConstraintO">NodeConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Settings.html">Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Settings/CacheSize.html">– CacheSize</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/AVAssetExportSession.html">AVAssetExportSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/AVPlayer.html">AVPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/AVPlayerItem.html">AVPlayerItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGAffineTransform.html">CGAffineTransform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGImage.html">CGImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMPersistentTrackID.html">CMPersistentTrackID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMTime.html">CMTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/CMTimeRange.html">CMTimeRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ClosedRange.html">ClosedRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Sf">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s7Float64a">Float64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Si">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s5Int32V">Int32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s5Int64V">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/JSONEncoder.html">JSONEncoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MTIImage.html">MTIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/MTILayer.html">MTILayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSColor.html">NSColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters.html">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/BlendingModeKey.html">– BlendingModeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/FilterKey.html">– FilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/ColorCorrectionFilterKey.html">– ColorCorrectionFilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/LayerBackgroundKey.html">– LayerBackgroundKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/OpacityKey.html">– OpacityKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/TransformKey.html">– TransformKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/TransitionKey.html">– TransitionKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/VolumeFadeSettingsKey.html">– VolumeFadeSettingsKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/VolumeKey.html">– VolumeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeParameters/ZIndexKey.html">– ZIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeReference.html">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NodeReference/Mutator.html">– Mutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Numeric.html">Numeric</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:SS">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Su">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s6UInt32V">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:s6UInt64V">UInt64</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit2neoiySbAA12AnyEquatable_pSg_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1moiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1moiyxx_AA17Vec2Representable_ptAaCRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1poiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1poiyxx_AA17Vec2Representable_ptAaCRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1soiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1soiyxx_AA17Vec2Representable_ptAaCRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1doiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit1doiyxx_AA17Vec2Representable_ptAaCRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit2eeoiySbAA12AnyEquatable_pSg_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:11ComposerKit10initializeyyF">initialize()</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyAdditionalNode.html">AnyAdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyAssetBasedNodeContent.html">AnyAssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyCodableType.html">AnyCodableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyComparable.html">AnyComparable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyEquatable.html">AnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyMainNode.html">AnyMainNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyNode.html">AnyNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnyNodeContent.html">AnyNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AnySplittableNode.html">AnySplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetBasedNode.html">AssetBasedNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetBasedNodeContent.html">AssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AssetTrackInjectable.html">AssetTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudialContent.html">AudialContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudialContentNode.html">AudialContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioContentNode.html">AudioContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit16AudioOnlyContentP">AudioOnlyContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioTrackInjectable.html">AudioTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AudioTrackInjectableAtKnownTime.html">AudioTrackInjectableAtKnownTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AutoAnyCodable.html">AutoAnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AutoAnyEquatable.html">AutoAnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BaseNode.html">BaseNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BlendableNode.html">BlendableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ContentFrameProviderNode.html">ContentFrameProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit8DiffableP">Diffable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DurationProvider.html">DurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EffectContentNode.html">EffectContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Filter.html">Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FrameProviderContent.html">FrameProviderContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HasColorCorrectionFilter.html">HasColorCorrectionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HasVisualFilter.html">HasVisualFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageContentNode.html">ImageContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageFilterProcessor.html">ImageFilterProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageFilteringRequest.html">ImageFilteringRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LayerBackground.html">LayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LayerInstruction.html">LayerInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableDurationProvider.html">MutableDurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableTitleProvider.html">MutableTitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MutableVolumeProvidingNode.html">MutableVolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NodeWithBackground.html">NodeWithBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NodesStorageDelegate.html">NodesStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ParametersKey.html">ParametersKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Registrable.html">Registrable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RenderContentInstruction.html">RenderContentInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourcePreprocessor.html">ResourcePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ResourceStorageProtocol.html">ResourceStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReversableContent.html">ReversableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ReversableNode.html">ReversableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SpeedProvider.html">SpeedProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SplittableContent.html">SplittableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SplittableNode.html">SplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StepsNavigatableByCursor.html">StepsNavigatableByCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TextContentNode.html">TextContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TimelineDelegate.html">TimelineDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TitleProvider.html">TitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransformableNode.html">TransformableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProcessor.html">TransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProcessorCore.html">TransitionProcessorCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransitionProvider.html">TransitionProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/TransparentNode.html">TransparentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Vec2Representable.html">Vec2Representable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Versionable.html">Versionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoContentNode.html">VideoContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoTrackInjectable.html">VideoTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualContent.html">VisualContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualContentNode.html">VisualContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualProcessorContent.html">VisualProcessorContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VisualProcessorContentNode.html">VisualProcessorContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VolumeFadeSettingsProvider.html">VolumeFadeSettingsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VolumeProvidingNode.html">VolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ZIndexableNode.html">ZIndexableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/_Identifiable.html">_Identifiable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AdditionalNode.html">AdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyCodable.html">AnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyDiffAware.html">AnyDiffAware</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyFilter.html">AnyFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AnyLayerBackground.html">AnyLayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AspectRatio.html">AspectRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AudioContent.html">AudioContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AudioContent/Source.html">– Source</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTree.html">BTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeIndex.html">BTreeIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeIterator.html">BTreeIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeKeyIterator.html">BTreeKeyIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BTreeValueIterator.html">BTreeValueIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlurBackground.html">BlurBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BlurFilter.html">BlurFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CRTFilter.html">CRTFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CanvasProperties.html">CanvasProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompositionState.html">CompositionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompositionState.html#/s:11ComposerKit16CompositionStateV6ChangeV">– Change</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ContentFrameInfo.html">ContentFrameInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossFadeTransitionProcessor.html">CrossFadeTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossFadeTransitionProcessor.html#/s:11ComposerKit28CrossFadeTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossZoomTransitionProcessor.html">CrossZoomTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CrossZoomTransitionProcessor.html#/s:11ComposerKit28CrossZoomTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EffectContent.html">EffectContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GIFContent.html">GIFContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageBackground.html">ImageBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageContent.html">ImageContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Map.html">Map</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MediaTime.html">MediaTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Node.html">Node</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NodesComposition.html">NodesComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OutlineFilter.html">OutlineFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Parameters.html">Parameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Project.html">Project</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RenderEffectInstruction.html">RenderEffectInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:11ComposerKit26RenderVisualContentContextV">RenderVisualContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ReverseOperation.html">ReverseOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SolidColorBackground.html">SolidColorBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SortedBag.html">SortedBag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SortedSet.html">SortedSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Text/Alignment.html">– Alignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TextContent.html">TextContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Transform.html">Transform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Transition.html">Transition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VHSFilter.html">VHSFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoCompositionRequest.html">VideoCompositionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoContent.html">VideoContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:11ComposerKit29VisualProcessorContentContextV">VisualProcessorContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VolumeFadeSettings.html">VolumeFadeSettings</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit17ContentParametersa">ContentParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/Font">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit4Fonta">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit27MutableDurationProviderNodea">MutableDurationProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit14NodeParametersa">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit13NodeReferencea">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit20NodeReferenceMutatora">NodeReferenceMutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit24StronglyTypedNodeContenta">StronglyTypedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit20TransformableContenta">TransformableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:11ComposerKit18TransparentContenta">TransparentContent</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ClosedRange</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">ClosedRange</span> <span class="k">where</span> <span class="kt">Bound</span><span class="p">:</span> <span class="kt">FloatingPoint</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">ClosedRange</span> <span class="k">where</span> <span class="kt">Bound</span><span class="p">:</span> <span class="kt">Numeric</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Bound%60%3A%20%60FloatingPoint%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Bound`: `FloatingPoint`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Bound%60%3A%20%60FloatingPoint%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Bound</code>: <code>FloatingPoint</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SN11ComposerKitSFRzrlE16relativeFraction2ofxx_tF"></a>
+                    <a name="//apple_ref/swift/Method/relativeFraction(of:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SN11ComposerKitSFRzrlE16relativeFraction2ofxx_tF">relativeFraction(of:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculates relative fraction of given value placed on this range.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">relativeFraction</span><span class="p">(</span><span class="n">of</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bound</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bound</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>value to calculate fraction for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>relative fraction of provided value</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Available%20where%20%60Bound%60%3A%20%60Numeric%60"></a>
+                <a name="//apple_ref/swift/Section/Available where `Bound`: `Numeric`" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Available%20where%20%60Bound%60%3A%20%60Numeric%60"></a>
+                  <h3 class="section-name"><p>Available where <code>Bound</code>: <code>Numeric</code></p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:SN11ComposerKitSjRzrlE5value2atxx_tF"></a>
+                    <a name="//apple_ref/swift/Method/value(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:SN11ComposerKitSjRzrlE5value2atxx_tF">value(at:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculates value on range at relative fraction.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">value</span><span class="p">(</span><span class="n">at</span> <span class="nv">relativeFraction</span><span class="p">:</span> <span class="kt">Bound</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bound</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>relativeFraction</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>relative fraction to calculate value for.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>value at given relative position.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-04-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

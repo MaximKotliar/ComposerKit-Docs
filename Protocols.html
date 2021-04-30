@@ -1,0 +1,2778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Section/Protocols" class="dashAnchor"></a>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (65% documented)</p>
+        <p class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/AssetReversingOperation.html">AssetReversingOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/AssetReversingOperation/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/BTreeCursor.html">BTreeCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImagePreprocessor.html">ImagePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImagePreprocessor.html#/s:11ComposerKit17ImagePreprocessorC13ConfigurationO">– Configuration</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImagePreprocessor/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImageThumbnailGenerator.html">ImageThumbnailGenerator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImageThumbnailGenerator/Request.html">– Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ImageThumbnailGenerator/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/InMemoryResourceStorage.html">InMemoryResourceStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MetalTransitionFilter.html">MetalTransitionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MetalVisualContentFilter.html">MetalVisualContentFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MutableVideoComposition.html">MutableVideoComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/NodesStorage.html">NodesStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/NodesStorage/Reference.html">– Reference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Refreshable.html">Refreshable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Stopwatch.html">Stopwatch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/Timeline.html">Timeline</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/BTreeKeySelector.html">BTreeKeySelector</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BTreeMatchingStrategy.html">BTreeMatchingStrategy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/BlendingMode.html">BlendingMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:11ComposerKit17ContentConstraintO">ContentConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums.html#/s:11ComposerKit14NodeConstraintO">NodeConstraint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Settings.html">Settings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/Settings/CacheSize.html">– CacheSize</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/AVAssetExportSession.html">AVAssetExportSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/AVPlayer.html">AVPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/AVPlayerItem.html">AVPlayerItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CGAffineTransform.html">CGAffineTransform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CGImage.html">CGImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CGPoint.html">CGPoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CGRect.html">CGRect</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CGSize.html">CGSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CMPersistentTrackID.html">CMPersistentTrackID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CMTime.html">CMTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/CMTimeRange.html">CMTimeRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/ClosedRange.html">ClosedRange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:Sf">Float</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:s7Float64a">Float64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:Si">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:s5Int32V">Int32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:s5Int64V">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/JSONDecoder.html">JSONDecoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/JSONEncoder.html">JSONEncoder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/MTIImage.html">MTIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/MTILayer.html">MTILayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NSColor.html">NSColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters.html">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/BlendingModeKey.html">– BlendingModeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/FilterKey.html">– FilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/ColorCorrectionFilterKey.html">– ColorCorrectionFilterKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/LayerBackgroundKey.html">– LayerBackgroundKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/OpacityKey.html">– OpacityKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/TransformKey.html">– TransformKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/TransitionKey.html">– TransitionKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/VolumeFadeSettingsKey.html">– VolumeFadeSettingsKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/VolumeKey.html">– VolumeKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeParameters/ZIndexKey.html">– ZIndexKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeReference.html">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/NodeReference/Mutator.html">– Mutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Numeric.html">Numeric</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/Optional.html">Optional</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:SS">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:Su">UInt</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:s6UInt32V">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/s:s6UInt64V">UInt64</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit2neoiySbAA12AnyEquatable_pSg_ADtF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1moiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1moiyxx_AA17Vec2Representable_ptAaCRzlF">*(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1poiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1poiyxx_AA17Vec2Representable_ptAaCRzlF">+(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1soiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1soiyxx_AA17Vec2Representable_ptAaCRzlF">-(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1doiyxx_12CoreGraphics7CGFloatVtAA17Vec2RepresentableRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit1doiyxx_AA17Vec2Representable_ptAaCRzlF">/(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit2eeoiySbAA12AnyEquatable_pSg_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Functions.html#/s:11ComposerKit10initializeyyF">initialize()</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/AnyAdditionalNode.html">AnyAdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyAssetBasedNodeContent.html">AnyAssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyCodableType.html">AnyCodableType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyComparable.html">AnyComparable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyEquatable.html">AnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyMainNode.html">AnyMainNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyNode.html">AnyNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnyNodeContent.html">AnyNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AnySplittableNode.html">AnySplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AssetBasedNode.html">AssetBasedNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AssetBasedNodeContent.html">AssetBasedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AssetTrackInjectable.html">AssetTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AudialContent.html">AudialContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AudialContentNode.html">AudialContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AudioContentNode.html">AudioContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:11ComposerKit16AudioOnlyContentP">AudioOnlyContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AudioTrackInjectable.html">AudioTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AudioTrackInjectableAtKnownTime.html">AudioTrackInjectableAtKnownTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AutoAnyCodable.html">AutoAnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/AutoAnyEquatable.html">AutoAnyEquatable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BaseNode.html">BaseNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/BlendableNode.html">BlendableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ContentFrameProviderNode.html">ContentFrameProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:11ComposerKit8DiffableP">Diffable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/DurationProvider.html">DurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/EffectContentNode.html">EffectContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Filter.html">Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/FrameProviderContent.html">FrameProviderContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/HasColorCorrectionFilter.html">HasColorCorrectionFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/HasVisualFilter.html">HasVisualFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ImageContentNode.html">ImageContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ImageFilterProcessor.html">ImageFilterProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ImageFilteringRequest.html">ImageFilteringRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/LayerBackground.html">LayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/LayerInstruction.html">LayerInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MutableDurationProvider.html">MutableDurationProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MutableTitleProvider.html">MutableTitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/MutableVolumeProvidingNode.html">MutableVolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/NodeWithBackground.html">NodeWithBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/NodesStorageDelegate.html">NodesStorageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ParametersKey.html">ParametersKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Registrable.html">Registrable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/RenderContentInstruction.html">RenderContentInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ResourcePreprocessor.html">ResourcePreprocessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ResourceStorageProtocol.html">ResourceStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ReversableContent.html">ReversableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ReversableNode.html">ReversableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SpeedProvider.html">SpeedProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SplittableContent.html">SplittableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/SplittableNode.html">SplittableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/StepsNavigatableByCursor.html">StepsNavigatableByCursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TextContentNode.html">TextContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TimelineDelegate.html">TimelineDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TitleProvider.html">TitleProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransformableNode.html">TransformableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransitionProcessor.html">TransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransitionProcessorCore.html">TransitionProcessorCore</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransitionProvider.html">TransitionProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/TransparentNode.html">TransparentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Vec2Representable.html">Vec2Representable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/Versionable.html">Versionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VideoContentNode.html">VideoContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VideoTrackInjectable.html">VideoTrackInjectable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VisualContent.html">VisualContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VisualContentNode.html">VisualContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VisualProcessorContent.html">VisualProcessorContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VisualProcessorContentNode.html">VisualProcessorContentNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VolumeFadeSettingsProvider.html">VolumeFadeSettingsProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/VolumeProvidingNode.html">VolumeProvidingNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ZIndexableNode.html">ZIndexableNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/_Identifiable.html">_Identifiable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/AdditionalNode.html">AdditionalNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AnyCodable.html">AnyCodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AnyDiffAware.html">AnyDiffAware</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AnyFilter.html">AnyFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AnyLayerBackground.html">AnyLayerBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AspectRatio.html">AspectRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Asset.html">Asset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AudioContent.html">AudioContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/AudioContent/Source.html">– Source</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BTree.html">BTree</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BTreeIndex.html">BTreeIndex</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BTreeIterator.html">BTreeIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BTreeKeyIterator.html">BTreeKeyIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BTreeValueIterator.html">BTreeValueIterator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BlurBackground.html">BlurBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/BlurFilter.html">BlurFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CRTFilter.html">CRTFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CanvasProperties.html">CanvasProperties</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Color.html">Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CompositionState.html">CompositionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CompositionState.html#/s:11ComposerKit16CompositionStateV6ChangeV">– Change</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ContentFrameInfo.html">ContentFrameInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CrossFadeTransitionProcessor.html">CrossFadeTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CrossFadeTransitionProcessor.html#/s:11ComposerKit28CrossFadeTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CrossZoomTransitionProcessor.html">CrossZoomTransitionProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/CrossZoomTransitionProcessor.html#/s:11ComposerKit28CrossZoomTransitionProcessorV6FilterC">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/EffectContent.html">EffectContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Error.html">Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/GIFContent.html">GIFContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ImageBackground.html">ImageBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ImageContent.html">ImageContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Map.html">Map</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MediaTime.html">MediaTime</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Node.html">Node</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/NodesComposition.html">NodesComposition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/OutlineFilter.html">OutlineFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Parameters.html">Parameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Project.html">Project</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/RenderEffectInstruction.html">RenderEffectInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:11ComposerKit26RenderVisualContentContextV">RenderVisualContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Resource.html">Resource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/ReverseOperation.html">ReverseOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SolidColorBackground.html">SolidColorBackground</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SortedBag.html">SortedBag</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SortedSet.html">SortedSet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Text/Alignment.html">– Alignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/TextContent.html">TextContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Transform.html">Transform</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Transition.html">Transition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VHSFilter.html">VHSFilter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VideoCompositionRequest.html">VideoCompositionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VideoContent.html">VideoContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs.html#/s:11ComposerKit29VisualProcessorContentContextV">VisualProcessorContentContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/VolumeFadeSettings.html">VolumeFadeSettings</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit17ContentParametersa">ContentParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/Font">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit4Fonta">Font</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit27MutableDurationProviderNodea">MutableDurationProviderNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit14NodeParametersa">NodeParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit13NodeReferencea">NodeReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit20NodeReferenceMutatora">NodeReferenceMutator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit24StronglyTypedNodeContenta">StronglyTypedNodeContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit20TransformableContenta">TransformableContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:11ComposerKit18TransparentContenta">TransparentContent</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit24StepsNavigatableByCursorP"></a>
+                    <a name="//apple_ref/swift/Protocol/StepsNavigatableByCursor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit24StepsNavigatableByCursorP">StepsNavigatableByCursor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/StepsNavigatableByCursor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">StepsNavigatableByCursor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16AudioContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudioContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16AudioContentNodeP">AudioContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node that has audio content.</p>
+
+                        <a href="Protocols/AudioContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudioContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17EffectContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/EffectContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17EffectContentNodeP">EffectContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/EffectContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">EffectContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/ZIndexableNode.html">ZIndexableNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16ImageContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/ImageContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16ImageContentNodeP">ImageContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node that has image content.</p>
+
+                        <a href="Protocols/ImageContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ImageContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit21AssetBasedNodeContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/AssetBasedNodeContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit21AssetBasedNodeContentP">AssetBasedNodeContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AssetBasedNodeContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AssetBasedNodeContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyAssetBasedNodeContent.html">AnyAssetBasedNodeContent</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SplittableContent.html">SplittableContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit24AnyAssetBasedNodeContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyAssetBasedNodeContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit24AnyAssetBasedNodeContentP">AnyAssetBasedNodeContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any node content that based on <code><a href="Structs/Asset.html">Asset</a></code> (audio or video).</p>
+
+                        <a href="Protocols/AnyAssetBasedNodeContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyAssetBasedNodeContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/DurationProvider.html">DurationProvider</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ReversableContent.html">ReversableContent</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SpeedProvider.html">SpeedProvider</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14AssetBasedNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AssetBasedNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14AssetBasedNodeP">AssetBasedNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AssetBasedNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AssetBasedNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13AudialContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudialContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13AudialContentP">AudialContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AudialContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudialContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AudioTrackInjectable.html">AudioTrackInjectable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17AudialContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudialContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17AudialContentNodeP">AudialContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AudialContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudialContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16AudioOnlyContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudioOnlyContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16AudioOnlyContentP">AudioOnlyContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudioOnlyContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AudialContent.html">AudialContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14AnyNodeContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyNodeContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14AnyNodeContentP">AnyNodeContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any node &ldquo;content&rdquo;</p>
+
+                        <a href="Protocols/AnyNodeContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyNodeContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/Registrable.html">Registrable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11NodeContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/NodeContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11NodeContentP">NodeContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes base node content</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">NodeContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNodeContent.html">AnyNodeContent</a></span><span class="p">,</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13VisualContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/VisualContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13VisualContentP">VisualContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VisualContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VisualContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/SplittableContent.html">SplittableContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17VisualContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/VisualContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17VisualContentNodeP">VisualContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VisualContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VisualContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit22VisualProcessorContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/VisualProcessorContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit22VisualProcessorContentP">VisualProcessorContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VisualProcessorContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VisualProcessorContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols.html#/s:11ComposerKit11NodeContentP">NodeContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit26VisualProcessorContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/VisualProcessorContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit26VisualProcessorContentNodeP">VisualProcessorContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VisualProcessorContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VisualProcessorContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit24RenderContentInstructionP"></a>
+                    <a name="//apple_ref/swift/Protocol/RenderContentInstruction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit24RenderContentInstructionP">RenderContentInstruction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/RenderContentInstruction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">RenderContentInstruction</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit15TextContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/TextContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit15TextContentNodeP">TextContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/TextContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TextContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16VideoContentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/VideoContentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16VideoContentNodeP">VideoContentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VideoContentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VideoContentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13_IdentifiableP"></a>
+                    <a name="//apple_ref/swift/Protocol/_Identifiable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13_IdentifiableP">_Identifiable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/_Identifiable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="n">_Identifiable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit8DiffableP"></a>
+                    <a name="//apple_ref/swift/Protocol/Diffable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit8DiffableP">Diffable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Diffable</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span><span class="p">,</span> <span class="n"><a href="Protocols/_Identifiable.html">_Identifiable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit6FilterP"></a>
+                    <a name="//apple_ref/swift/Protocol/Filter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit6FilterP">Filter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/Filter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Filter</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyCodableType.html">AnyCodableType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/ImageFilterProcessor.html">ImageFilterProcessor</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20ImageFilterProcessorP"></a>
+                    <a name="//apple_ref/swift/Protocol/ImageFilterProcessor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20ImageFilterProcessorP">ImageFilterProcessor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/ImageFilterProcessor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ImageFilterProcessor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit21ImageFilteringRequestP"></a>
+                    <a name="//apple_ref/swift/Protocol/ImageFilteringRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit21ImageFilteringRequestP">ImageFilteringRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/ImageFilteringRequest.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ImageFilteringRequest</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit15LayerBackgroundP"></a>
+                    <a name="//apple_ref/swift/Protocol/LayerBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit15LayerBackgroundP">LayerBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/LayerBackground.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">LayerBackground</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyCodableType.html">AnyCodableType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit19TransitionProcessorP"></a>
+                    <a name="//apple_ref/swift/Protocol/TransitionProcessor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit19TransitionProcessorP">TransitionProcessor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/TransitionProcessor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TransitionProcessor</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyCodableType.html">AnyCodableType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span><span class="p">,</span> <span class="kt"><a href="Protocols/TransitionProcessorCore.html">TransitionProcessorCore</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit23TransitionProcessorCoreP"></a>
+                    <a name="//apple_ref/swift/Protocol/TransitionProcessorCore" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit23TransitionProcessorCoreP">TransitionProcessorCore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/TransitionProcessorCore.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TransitionProcessorCore</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17Vec2RepresentableP"></a>
+                    <a name="//apple_ref/swift/Protocol/Vec2Representable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17Vec2RepresentableP">Vec2Representable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes two-dimensional vector</p>
+
+                        <a href="Protocols/Vec2Representable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Vec2Representable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11RegistrableP"></a>
+                    <a name="//apple_ref/swift/Protocol/Registrable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11RegistrableP">Registrable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/Registrable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Registrable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13AnyComparableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyComparable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13AnyComparableP">AnyComparable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AnyComparable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyComparable</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16AutoAnyEquatableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AutoAnyEquatable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16AutoAnyEquatableP">AutoAnyEquatable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AutoAnyEquatable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AutoAnyEquatable</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyEquatable.html">AnyEquatable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit12AnyEquatableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyEquatable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit12AnyEquatableP">AnyEquatable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AnyEquatable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyEquatable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17AnyAdditionalNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyAdditionalNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17AnyAdditionalNodeP">AnyAdditionalNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any &ldquo;additional&rdquo; node.
+Conformer should be a wrapper that wraps <code><a href="Structs/Node.html">Node</a></code> and adds <code>startTime</code>alongside with it.
+Additional node should wrap <code><a href="Structs/Node.html">Node</a></code>.</p>
+
+                        <a href="Protocols/AnyAdditionalNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyAdditionalNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13BlendableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/BlendableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13BlendableNodeP">BlendableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node that have blending mode.</p>
+
+                        <a href="Protocols/BlendableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">BlendableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyAdditionalNode.html">AnyAdditionalNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20FrameProviderContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/FrameProviderContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20FrameProviderContentP">FrameProviderContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any content that provides content frame info.
+Can be used to render overlay bounding rect on UI.</p>
+
+                        <a href="Protocols/FrameProviderContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">FrameProviderContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNodeContent.html">AnyNodeContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit24ContentFrameProviderNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/ContentFrameProviderNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit24ContentFrameProviderNodeP">ContentFrameProviderNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node that provides content frame info.
+Can be used to render overlay bounding rect on UI.</p>
+
+                        <a href="Protocols/ContentFrameProviderNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ContentFrameProviderNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit8BaseNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/BaseNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit8BaseNodeP">BaseNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describe base structure of any node.</p>
+
+                        <a href="Protocols/BaseNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">BaseNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16DurationProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/DurationProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16DurationProviderP">DurationProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any thing that have duration.</p>
+
+                        <a href="Protocols/DurationProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">DurationProvider</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit23MutableDurationProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/MutableDurationProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit23MutableDurationProviderP">MutableDurationProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any thing that have duration and allows to mutate it.</p>
+
+                        <a href="Protocols/MutableDurationProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MutableDurationProvider</span> <span class="p">:</span> <span class="kt"><a href="Protocols/DurationProvider.html">DurationProvider</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit15HasVisualFilterP"></a>
+                    <a name="//apple_ref/swift/Protocol/HasVisualFilter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit15HasVisualFilterP">HasVisualFilter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that has visual filter</p>
+
+                        <a href="Protocols/HasVisualFilter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">HasVisualFilter</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit24HasColorCorrectionFilterP"></a>
+                    <a name="//apple_ref/swift/Protocol/HasColorCorrectionFilter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit24HasColorCorrectionFilterP">HasColorCorrectionFilter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that has color correction filter</p>
+
+                        <a href="Protocols/HasColorCorrectionFilter.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">HasColorCorrectionFilter</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit18NodeWithBackgroundP"></a>
+                    <a name="//apple_ref/swift/Protocol/NodeWithBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit18NodeWithBackgroundP">NodeWithBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/NodeWithBackground.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">NodeWithBackground</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit15TransparentNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/TransparentNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit15TransparentNodeP">TransparentNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node that have opacity feature.</p>
+
+                        <a href="Protocols/TransparentNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TransparentNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17ReversableContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/ReversableContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17ReversableContentP">ReversableContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes content which can be reversed.</p>
+
+                        <a href="Protocols/ReversableContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ReversableContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNodeContent.html">AnyNodeContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14ReversableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/ReversableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14ReversableNodeP">ReversableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes node which can be reversed.</p>
+
+                        <a href="Protocols/ReversableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ReversableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13SpeedProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/SpeedProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13SpeedProviderP">SpeedProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that provides speed.</p>
+
+                        <a href="Protocols/SpeedProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SpeedProvider</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17AnySplittableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnySplittableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17AnySplittableNodeP">AnySplittableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type-erased node that can be splitted on two nodes at relative (fractional) point.</p>
+
+                        <a href="Protocols/AnySplittableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnySplittableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14SplittableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/SplittableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14SplittableNodeP">SplittableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any strongly-typed node that can be splitted on two nodes at relative (fractional) point.</p>
+
+                        <a href="Protocols/SplittableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SplittableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnySplittableNode.html">AnySplittableNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17SplittableContentP"></a>
+                    <a name="//apple_ref/swift/Protocol/SplittableContent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17SplittableContentP">SplittableContent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any content that can be splitted on two content parts at relative (fractional) point.</p>
+
+                        <a href="Protocols/SplittableContent.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">SplittableContent</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNodeContent.html">AnyNodeContent</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13TitleProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/TitleProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13TitleProviderP">TitleProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that provides title string.</p>
+
+                        <a href="Protocols/TitleProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TitleProvider</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20MutableTitleProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/MutableTitleProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20MutableTitleProviderP">MutableTitleProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that provides mutable title string.</p>
+
+                        <a href="Protocols/MutableTitleProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MutableTitleProvider</span> <span class="p">:</span> <span class="kt"><a href="Protocols/TitleProvider.html">TitleProvider</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit17TransformableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/TransformableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit17TransformableNodeP">TransformableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any node that supports transforming.</p>
+
+                        <a href="Protocols/TransformableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TransformableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit18TransitionProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/TransitionProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit18TransitionProviderP">TransitionProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any type that provides transition.</p>
+
+                        <a href="Protocols/TransitionProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TransitionProvider</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11AnyMainNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyMainNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11AnyMainNodeP">AnyMainNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any &ldquo;main&rdquo; node</p>
+
+                        <a href="Protocols/AnyMainNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyMainNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit26VolumeFadeSettingsProviderP"></a>
+                    <a name="//apple_ref/swift/Protocol/VolumeFadeSettingsProvider" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit26VolumeFadeSettingsProviderP">VolumeFadeSettingsProvider</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes a node that provides <code><a href="Structs/VolumeFadeSettings.html">VolumeFadeSettings</a></code></p>
+
+                        <a href="Protocols/VolumeFadeSettingsProvider.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VolumeFadeSettingsProvider</span> <span class="p">:</span> <span class="kt"><a href="Protocols/VolumeProvidingNode.html">VolumeProvidingNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit19VolumeProvidingNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/VolumeProvidingNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit19VolumeProvidingNodeP">VolumeProvidingNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes a node that provides it&rsquo;s audio volume.</p>
+
+                        <a href="Protocols/VolumeProvidingNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VolumeProvidingNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyNode.html">AnyNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit26MutableVolumeProvidingNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/MutableVolumeProvidingNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit26MutableVolumeProvidingNodeP">MutableVolumeProvidingNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes a node that provides it&rsquo;s mutable audio volume.</p>
+
+                        <a href="Protocols/MutableVolumeProvidingNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MutableVolumeProvidingNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/VolumeProvidingNode.html">VolumeProvidingNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14ZIndexableNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/ZIndexableNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14ZIndexableNodeP">ZIndexableNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any node that can be arranged by <code>Z</code> index on additional timeline.</p>
+
+                        <a href="Protocols/ZIndexableNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ZIndexableNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyAdditionalNode.html">AnyAdditionalNode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit7AnyNodeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyNode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit7AnyNodeP">AnyNode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Describes any composition node</p>
+
+                        <a href="Protocols/AnyNode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyNode</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyCodableType.html">AnyCodableType</a></span><span class="p">,</span> <span class="kt"><a href="Protocols.html#/s:11ComposerKit8DiffableP">Diffable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit13ParametersKeyP"></a>
+                    <a name="//apple_ref/swift/Protocol/ParametersKey" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit13ParametersKeyP">ParametersKey</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This protocol describes parameter key type</p>
+
+                        <a href="Protocols/ParametersKey.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ParametersKey</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16LayerInstructionP"></a>
+                    <a name="//apple_ref/swift/Protocol/LayerInstruction" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16LayerInstructionP">LayerInstruction</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/LayerInstruction.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">LayerInstruction</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit23ResourceStorageProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/ResourceStorageProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit23ResourceStorageProtocolP">ResourceStorageProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This protocol is used to describe resource storage.
+Resource storage can store resource and load it, it should provide thread-safe access to stored data.
+In default library configuration (see &ldquo;Configuration.swift&rdquo;) InMemoryResourceStorage used by default,
+you can implement your own storage by conforming this protocol and
+set ComposerKit.Configuration.resourceStorage = [your resource storage implementation]</p>
+
+                        <a href="Protocols/ResourceStorageProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ResourceStorageProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20ResourcePreprocessorP"></a>
+                    <a name="//apple_ref/swift/Protocol/ResourcePreprocessor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20ResourcePreprocessorP">ResourcePreprocessor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This protocol represents interface that can be used for writing custom
+resource preprocessors</p>
+
+<p>example of preprocessor usage:
+ we got image or video from gallery and want to do
+ some preparations like recoding or resizing for
+ better performance or size optimizations</p>
+
+                        <a href="Protocols/ResourcePreprocessor.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">ResourcePreprocessor</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14AnyCodableTypeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AnyCodableType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14AnyCodableTypeP">AnyCodableType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AnyCodableType.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AnyCodableType</span> <span class="p">:</span> <span class="kt"><a href="Protocols/Registrable.html">Registrable</a></span><span class="p">,</span> <span class="kt">Decodable</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit14AutoAnyCodableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AutoAnyCodable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit14AutoAnyCodableP">AutoAnyCodable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AutoAnyCodable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AutoAnyCodable</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AnyCodableType.html">AnyCodableType</a></span><span class="p">,</span> <span class="kt">Equatable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit11VersionableP"></a>
+                    <a name="//apple_ref/swift/Protocol/Versionable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit11VersionableP">Versionable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/Versionable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Versionable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20NodesStorageDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/NodesStorageDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20NodesStorageDelegateP">NodesStorageDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>NodesStorage delegate protocol</p>
+
+                        <a href="Protocols/NodesStorageDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">NodesStorageDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20AssetTrackInjectableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AssetTrackInjectable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20AssetTrackInjectableP">AssetTrackInjectable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AssetTrackInjectable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AssetTrackInjectable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20AudioTrackInjectableP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudioTrackInjectable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20AudioTrackInjectableP">AudioTrackInjectable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AudioTrackInjectable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudioTrackInjectable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit31AudioTrackInjectableAtKnownTimeP"></a>
+                    <a name="//apple_ref/swift/Protocol/AudioTrackInjectableAtKnownTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit31AudioTrackInjectableAtKnownTimeP">AudioTrackInjectableAtKnownTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/AudioTrackInjectableAtKnownTime.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">AudioTrackInjectableAtKnownTime</span> <span class="p">:</span> <span class="kt"><a href="Protocols/AudioTrackInjectable.html">AudioTrackInjectable</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit20VideoTrackInjectableP"></a>
+                    <a name="//apple_ref/swift/Protocol/VideoTrackInjectable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit20VideoTrackInjectableP">VideoTrackInjectable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/VideoTrackInjectable.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">VideoTrackInjectable</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11ComposerKit16TimelineDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/TimelineDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11ComposerKit16TimelineDelegateP">TimelineDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/TimelineDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">TimelineDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2021-04-30)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
